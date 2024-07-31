@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+body {
+  background-color: #01242e;
+  color: white;
+  font-family: "Rubik", Arial, Helvetica, sans-serif;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 0 16px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 64px;
+  margin-bottom: 16px;
+}
+
+h3 {
+  margin-bottom: 50px;
+}
+
+header {
+  margin-top: 16px;
+  margin-bottom: 30px;
+}
+
+header a {
+  margin-right: 16px;
+  text-decoration: none;
+  color: inherit;
+}
+
+a {
+  color: #fafad2;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+}
+
+.main-content {
+  flex-grow: 1;
+}
+
+.blog-posts-heading {
+  margin-bottom: 32px;
+}
+
+.posts-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  color: white;
+}
+
+footer {
+  border-top: 1px solid;
+  margin-top: 16px;
+  padding: 16px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-icon {
+  max-width: 30px;
+}

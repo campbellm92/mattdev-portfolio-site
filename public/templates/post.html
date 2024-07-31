@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="/node_modules/highlight.js/styles/base16/atelier-lakeside.css"
+    />
+    <title>Blog post</title>
+    <link rel="icon" type="image/x-icon" href="assets/curlew-favicon.svg" />
+  </head>
+  <body>
+    <div class="header-content"></div>
+    <!--Placeholder for header content (loaded w/JS) -->
+    <div class="main-content">
+      <!--Placeholder for main content (loaded w/JS) -->
+    </div>
+    <div class="footer-content"></div>
+    <!--Placeholder for footer content (loaded w/JS) -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/languages/javascript.min.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        hljs.highlightAll();
+      });
+    </script>
+    <script src="/scripts/loadMarkdown.js" defer></script>
+    <script src="/scripts/loadTemplates.js" defer></script>
+  </body>
+</html>
