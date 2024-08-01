@@ -50,6 +50,55 @@ header a {
   margin-bottom: 32px;
 }
 
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, auto);
+  gap: 10px;
+}
+
+.grid-item {
+  width: 5rem;
+  padding: 10px;
+  position: relative;
+  cursor: pointer;
+}
+
+.grid-item img {
+  max-width: 100%;
+}
+
+.grid-item span {
+  visibility: hidden;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  left: 75%;
+  bottom: 75%;
+  translate: translateY(-50%);
+  line-height: 1.4;
+  width: 2em;
+  height: 2em;
+  padding: 0.3em;
+  font-size: 0.8em;
+  cursor: default;
+  background: #fafad2;
+  border-radius: 50%;
+}
+
+.grid-item:hover span {
+  visibility: visible;
+}
+
 .posts-list {
   margin: 0;
   padding: 0;
