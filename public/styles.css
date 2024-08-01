@@ -116,8 +116,18 @@ footer {
   padding: 16px 0;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.footer-icons-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
 }
 
 .footer-icon {
   max-width: 30px;
+  height: auto;
+  margin: 0 8px;
 }
