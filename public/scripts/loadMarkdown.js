@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   const postId = urlParams.get("file");
   if (postId) {
     try {
-      const response = await fetch(`/posts/${postId}`);
+      const response = await fetch(`/post/${postId}`);
       if (!response.ok) {
         throw new Error("Failed to fetch post content");
       }
