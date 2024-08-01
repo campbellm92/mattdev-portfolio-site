@@ -32,12 +32,12 @@ header a {
   color: inherit;
 }
 
-a {
+.main-content a {
   color: #fafad2;
   text-decoration: none;
 }
 
-a:hover {
+.main-content a:hover {
   text-decoration-line: underline;
   text-decoration-style: wavy;
 }
