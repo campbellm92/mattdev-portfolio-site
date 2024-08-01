@@ -32,6 +32,10 @@ header a {
   color: inherit;
 }
 
+.nav-link {
+  color: #fafad2;
+}
+
 .main-content a {
   color: #fafad2;
   text-decoration: none;
