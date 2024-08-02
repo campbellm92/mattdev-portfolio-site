@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       const postItem = document.createElement("li");
       postItem.style.cssText = "margin-bottom: 24px;";
       const a = document.createElement("a");
-      a.href = `/post/${post.file}`;
+      a.href = `/post?file=${post.file}`;
       a.textContent = post.title;
       a.style.cssText = "color: white; text-decoration: none;";
       postItem.appendChild(a);
