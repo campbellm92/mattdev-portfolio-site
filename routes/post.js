@@ -5,7 +5,11 @@ const { marked } = require("marked");
 const router = express.Router();
 
 router.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "../public", "templates", "post.html"));
+  try {
+    res.sendFile(path.join(__dirname, "../public", "templates", "post.html"));
+  } catch (error) {
+    res.status(500).json({ error: "Unable to retrieve post page." });
+  }
 });
 
 router.get("/:file", (req, res) => {
