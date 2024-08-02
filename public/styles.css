@@ -103,24 +103,23 @@ header a {
   visibility: visible;
 }
 
-.posts-list {
-  margin: 0;
+.page-list {
+  margin-bottom: 0;
   padding: 0;
   list-style-type: none;
+  color: #fafad2;
 }
 
-.posts-list:hover {
-  text-decoration-line: underline;
-  text-decoration-style: wavy;
+.page-list li {
+  margin-bottom: 24px;
 }
 
-.projects-list {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
+.page-list a {
+  text-decoration: none;
+  color: inherit;
 }
 
-.projects-list:hover {
+.page-list li a:hover {
   text-decoration-line: underline;
   text-decoration-style: wavy;
 }

@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     const response = await fetch("/projects/list");
     const projects = await response.json();
 
-    const projectList = document.querySelector(".projects-list");
+    const projectList = document.querySelector(".page-list");
     projects.forEach((project) => {
       const projectItem = document.createElement("li");
       // projectItem.style.cssText = "margin-bottom: 24px; color: #fafad2;";

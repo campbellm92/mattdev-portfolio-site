@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     const response = await fetch("/posts/list");
     const posts = await response.json();
 
-    const postList = document.querySelector(".posts-list");
+    const postList = document.querySelector(".page-list");
     posts.forEach((post) => {
       const postItem = document.createElement("li");
       // postItem.style.cssText = "margin-bottom: 24px; color: #fafad2;";
