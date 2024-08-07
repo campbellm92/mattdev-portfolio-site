@@ -36,6 +36,8 @@ header a {
   color: #fafad2;
 }
 
+/* Index */
+
 .main-content a {
   color: #fafad2;
   text-decoration: none;
@@ -54,32 +56,32 @@ header a {
   margin-bottom: 32px;
 }
 
-.flex-container {
+.skills-container {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 10px;
 }
 
-.grid-container {
+.skills-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, auto);
   gap: 10px;
 }
 
-.grid-item {
+.skills-item {
   width: 5rem;
   padding: 10px;
   position: relative;
   cursor: pointer;
 }
 
-.grid-item img {
+.skills-item img {
   max-width: 100%;
 }
 
-.grid-item span {
+.skills-item span {
   visibility: hidden;
   position: absolute;
   display: flex;
@@ -99,9 +101,11 @@ header a {
   border-radius: 50%;
 }
 
-.grid-item:hover span {
+.skills-item:hover span {
   visibility: visible;
 }
+
+/* Posts */
 
 .page-list {
   margin-bottom: 0;
@@ -123,6 +127,46 @@ header a {
   text-decoration-line: underline;
   text-decoration-style: wavy;
 }
+
+/* Projects */
+
+.project-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-card {
+  width: 100%;
+  height: auto;
+  padding: 0 1rem 1rem;
+  margin-bottom: 2rem;
+  border: 2px solid #fafad2;
+  border-radius: 5px;
+}
+
+.project-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.github-project-link {
+  max-width: 30px;
+}
+
+.project-card-title {
+  color: #fafad2;
+}
+
+.project-card-tech-used {
+  display: inline-block;
+  padding: 0.25rem;
+  margin: 0.25rem;
+  color: #01242e;
+  background-color: #fafad2;
+}
+
+/* Footer */
 
 footer {
   border-top: 1px solid;
