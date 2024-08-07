@@ -11,22 +11,22 @@ router.get("/", (req, res) => {
   }
 });
 
-router.get("/list", async (req, res) => {
-  try {
-    const projectsDir = path.join(__dirname, "../projects");
-    const files = await fs.readdir(projectsDir);
-    const projects = await Promise.all(
-      files.map(async (file) => {
-        const filePath = path.join(projectsDir, file);
-        const content = await fs.readFile(filePath, "utf-8");
-        const title = content.split("\n")[0].replace(/^#\s*/, "");
-        return { file, title };
-      })
-    );
-    res.json(projects);
-  } catch (error) {
-    res.status(500).json({ error: "Unable to retrieve posts." });
-  }
-});
+// router.get("/list", async (req, res) => {
+//   try {
+//     const projectsDir = path.join(__dirname, "../projects");
+//     const files = await fs.readdir(projectsDir);
+//     const projects = await Promise.all(
+//       files.map(async (file) => {
+//         const filePath = path.join(projectsDir, file);
+//         const content = await fs.readFile(filePath, "utf-8");
+//         const title = content.split("\n")[0].replace(/^#\s*/, "");
+//         return { file, title };
+//       })
+//     );
+//     res.json(projects);
+//   } catch (error) {
+//     res.status(500).json({ error: "Unable to retrieve posts." });
+//   }
+// });
 
 module.exports = router;
