@@ -2,13 +2,13 @@
 
 **_02.08.24_**
 
-Questo sito è basato su una piattaforma di blogging che ho creato. È stato creato con Express e una compilatore markdown chiamato [Marked](https://marked.js.org/). Marked permette di scrivere qualcosa (per esempio questa pagina) in [markdown](https://www.markdownguide.org/) e convertirla e servirla nel lato cliente in HTML.
+Questo sito è basato su una [piattaforma di blogging](https://github.com/campbellm92/curlew-blogging-platform) che ho creato. È stato creato con Express.js, vanilla JS e CSS e una compilatore markdown chiamato [marked](https://marked.js.org/). Marked permette di scrivere qualcosa (per esempio questa pagina) in [markdown](https://www.markdownguide.org/) e convertirla e servirla nel lato cliente in HTML.
 
 ### Perchè markdown?
 
 Volevo fare soppratutto due cose: scrivere un blog sul mio percorso di apprendimento per diventare web developer e creare una piattaforma di blogging per praticare le mie competenze di Node ed Express.
 
-Sfortunatamente, una piattaforma completamente realizzata con admin panel e operazioni di CRUD era, a quel tempo, appena fuori dalla mia zona di comfort. Non volevo nemmeno creare un blog su Wordpress: mi piaceva l'idea di fare tutto da solo. Entra il concetto di minimal blogging, come i blog su [512KB club](https://512kb.club/). Li si trova blog che sono meno di 512KB.
+Una piattaforma completamente realizzata con admin panel e operazioni di CRUD era, a quel tempo, appena fuori dalla mia zona di comfort. Non volevo nemmeno creare un blog su Wordpress: mi piaceva l'idea di fare tutto da solo. Entra il concetto di minimal blogging, come i blog su [512KB club](https://512kb.club/). Li si trova blog che sono meno di 512KB.
 
 ### Il tuo è un minimal blog?
 
@@ -16,8 +16,8 @@ Allora, sì e no.
 
 Grazie alle dipendenze e sottodipendenze, la mia piattaforma attualmente è molto più di 512KB. La cosa importante che ho preso dalla ricerca sul 512KB club è l'idea di usare markdown per fare un blog. La sfida era che non conoscevo la tecnologia per realizzarlo.
 
-Io pero conosco un po' d'Express. "Write what you know" diccono autori in inglese.
+Io pero conosco un po' d'Express. "Write what you know" dicono autori in inglese.
 
 ### Poi?
 
-C'è ancora tanto da fare per migliorare la piattaforma. Vorrei scrivere anche una guida per realizzarla.
+C'è ancora tanto da fare per migliorare la piattaforma. Una guida per utilizzarla è disponibile sul mio profilo su GitHub, ma vorrei scrivere anche una guida per realizzarla.
