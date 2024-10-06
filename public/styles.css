@@ -38,6 +38,20 @@ header a {
 
 /* Index */
 
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+#profile-img {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
 .main-content a {
   color: #fafad2;
   text-decoration: none;
@@ -157,6 +171,16 @@ header a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.project-card-header-links a {
+  display: inline-block;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.project-link {
+  max-width: 30px;
 }
 
 .github-project-link {
